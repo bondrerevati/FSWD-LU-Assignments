@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fourth Table</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Caption-Nested Table</caption>
+        <tr align="center">
+            <th>Column 1</th>
+            <th>Column 2</th>
+        </tr>
+        <tr align="center"><td colspan="2">Colspan Column</td></tr>
+        <tr align="center">
+            <td rowspan="2">Rowspan Cell</td>
+            <td>Cell 2</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" cellpadding="20px" cellspacing="10px" bgcolor="yellow">
+                    <tr align="center">
+                        <th>Inner Column Heading 1</th>
+                        <th>Inner Column Heading 2</th>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="gray">Inner Data Cell</td>
+                        <td bgcolor="greenyellow">
+                            <table border="1" bgcolor="lightpink" cellpadding="20px" cellspacing="10px">
+                                <tr align="center">
+                                    <th>Inner Most Column Heading 1</th>
+                                    <th>Inner Most Column Heading 2</th>
+                                </tr>
+                                <tr align="center">
+                                    <td bgcolor="#E39FF6">Innermost Data Cell 1</td>
+                                    <td bgcolor="coral">Innermost Data Cell 2</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>    
+    </table>
+</body>
+</html>
