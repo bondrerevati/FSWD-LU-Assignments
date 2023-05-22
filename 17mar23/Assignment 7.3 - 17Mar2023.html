@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body bgcolor="cyan">
+    <div>
+      <form action="">
+        <label for="pname">Project Name:</label>
+        <input type="text" name="pname" id="pname" placeholder="Project name" />
+        <br><br>
+        <label for="assignee">Assigned to</label>
+        <select name="assignee" id="assignee">
+          <option value="merry">Er Merry Petision</option>
+          <option value="deepak">Er Deepak Bhusan</option>
+          <option value="robert">Er Robert Watson</option>
+        </select>
+        <br><br>
+        <label for="start">Start Date</label>
+        <input type="date" name="start" id="start" />
+        <br><br>
+        <label for="end">End Date</label>
+        <input type="date" name="end" id="end" />
+        <br><br>
+        <label for="priority">Priority</label>
+        <input type="radio" name="priority" id="priority" value="high" />High
+        <input
+          type="radio"
+          name="priority"
+          id="priority"
+          value="average"
+        />Average
+        <input type="radio" name="priority" id="priority" value="low" />Low
+        <br><br>
+        <label for="desc">Description</label>
+        <textarea name="desc" id="desc" cols="35" rows="4"></textarea>
+        <br><br>
+        <input type="button" value="Submit">
+        <input type="reset" value="Clear">
+      </form>
+    </div>
+  </body>
+</html>
