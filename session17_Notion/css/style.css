@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 55px;
+  background-color: #093c2f;
+  color: #fff;
+}
+header li {
+  list-style-type: none;
+}
+#mainmenu {
+  width: 20%;
+  font-size: 18px;
+  padding: 15px 12px;
+  box-sizing: border-box;
+  height: 55px;
+  background-color: #104d3d;
+  position: relative;
+}
+#menu {
+  display: none;
+  width: 100%;
+  padding: 0;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+.submenu {
+  width: 100%;
+  height: 40px;
+  font-size: 17px;
+  background-color: #1d7a62;
+  padding: 12px;
+  box-sizing: border-box;
+  position: relative;
+}
+.subMenuItems {
+  display: none;
+  background-color: #000;
+  width: 100%;
+  padding: 0;
+}
+.subMenuItems li {
+  width: 100%;
+  height: 35px;
+  background-color: #249578;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.sub-menu-item1 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.sub-menu-item2 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.sub-menu-item3 {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+}
+.mobile-menu {
+  display: none;
+}
+#m-main-menu {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .mobile-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  #mobile-icon {
+    vertical-align: middle;
+  }
+  .mobile-menu span {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  #m-main-menu {
+    display: block;
+  }
+  #l-main-menu {
+    display: none;
+  }
+  header {
+    height: 40px;
+  }
+  header ul {
+    padding: 0;
+    margin: 0;
+  }
+  #mainmenu {
+    display: none;
+    width: 40%;
+    font-size: 15px;
+    height: 40px;
+    padding: 12px;
+  }
+  #menu {
+    top: 100%;
+  }
+  .sub-menu {
+    font-size: 15px;
+  }
+  .arrow {
+    width: 15px;
+    height: 15px;
+  }
+}
+/* @media screen and (max-width: 480px) {
+  .mobile-menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .mobile-menu span {
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  #m-main-menu {
+    display: block;
+  }
+  #l-main-menu {
+    display: none;
+  }
+  #mobile-icon {
+    width: 25px;
+    vertical-align: middle;
+  }
+  header {
+    height: 40px;
+  }
+  header ul {
+    padding: 0;
+    margin: 0;
+  }
+  #mainmenu {
+    display: none;
+    width: 40%;
+    font-size: 15px;
+    height: 40px;
+    padding: 12px;
+  }
+  #menu {
+    top: 100%;
+  }
+  .sub-menu {
+    font-size: 15px;
+  }
+  .arrow {
+    width: 15px;
+    height: 15px;
+  }
+  
+} */

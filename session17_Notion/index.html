@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 17</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="mobile-menu">
+        <div>
+          <img
+            id="mobile-icon"
+            src="images/mobile menu.png"
+            onclick="displayMobilemenu()"
+          />
+        </div>
+        <span>MENU</span>
+      </div>
+      <ul id="mainmenuUl">
+        <li
+          id="mainmenu"
+          onmouseover="mouseOverMenu()"
+          onmouseout="mouseOutMenu()"
+        >
+          <span id="l-main-menu">
+            Main Menu
+            <img
+              class="arrow"
+              src="images/arrow down.png"
+              alt="arrow-down"
+              id="arrow-down"
+            />
+          </span>
+          <div id="m-main-menu">
+            Main Menu
+            <img
+              class="arrow"
+              src="images/arrow down.png"
+              alt="arrow-down"
+              id="arrow-down"
+            />
+          </div>
+          <ul id="menu">
+            <li class="submenu">
+              Menu 1
+              <img
+                src="images/arrow right.png"
+                alt="arrow-left"
+                class="arrow arrow-right"
+              />
+              <ul name="submenuList" class="subMenuItems sub-menu-item1">
+                <li>Submenu 1</li>
+                <li>Submenu 2</li>
+                <li>Submenu 3</li>
+                <li>Submenu 4</li>
+                <li>Submenu 5</li>
+                <li>Submenu 6</li>
+                <li>Submenu 7</li>
+                <li>Submenu 8</li>
+                <li>Submenu 9</li>
+                <li>Submenu 10</li>
+                <li>Submenu 11</li>
+                <li>Submenu 12</li>
+                <li>Submenu 13</li>
+                <li>Submenu 14</li>
+                <li>Submenu 15</li>
+              </ul>
+            </li>
+            <li class="submenu">
+              Menu 2
+              <img
+                src="images/arrow left.png"
+                alt="arrow-left"
+                class="arrow arrow-right"
+              />
+              <ul name="submenuList" class="subMenuItems sub-menu-item2">
+                <li>Submenu 1</li>
+                <li>Submenu 2</li>
+                <li>Submenu 3</li>
+                <li>Submenu 4</li>
+                <li>Submenu 5</li>
+                <li>Submenu 6</li>
+                <li>Submenu 7</li>
+                <li>Submenu 8</li>
+                <li>Submenu 9</li>
+                <li>Submenu 10</li>
+                <li>Submenu 11</li>
+                <li>Submenu 12</li>
+              </ul>
+            </li>
+            <li class="submenu">
+              Menu 3
+              <img
+                src="images/arrow left.png"
+                alt="arrow-left"
+                class="arrow arrow-right"
+              />
+              <ul name="submenuList" class="subMenuItems sub-menu-item3">
+                <li>Submenu 1</li>
+                <li>Submenu 2</li>
+                <li>Submenu 3</li>
+                <li>Submenu 4</li>
+                <li>Submenu 5</li>
+                <li>Submenu 6</li>
+                <li>Submenu 7</li>
+                <li>Submenu 8</li>
+                <li>Submenu 9</li>
+                <li>Submenu 10</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+    <h2>Responsive header with multilevel navigation</h2>
+    <script src="script.js"></script>
+  </body>
+</html>
